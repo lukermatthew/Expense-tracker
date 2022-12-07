@@ -4,6 +4,7 @@ import Balance from "./components/Balance";
 import IncomeExpenses from "./components/IncomeExpenses";
 import TransactionList from "./components/TransactionList";
 import AddNewTransaction from "./components/AddNewTransaction";
+import Chart from "./components/Chart";
 
 import { TransactionProvider } from "./context/TransactionContext";
 import { UserProvider } from "./context/UserContext";
@@ -15,6 +16,7 @@ function App() {
         <div className="App">
           <div className="container">
             <Header />
+            <Chart />
             <Balance />
             <IncomeExpenses />
             <TransactionList />

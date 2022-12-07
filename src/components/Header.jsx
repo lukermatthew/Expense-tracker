@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <>
       <div className="container">Expense Tracker</div>
-      <p>User: {user.name}</p>
-      <p>Email: {user.email}</p>
+      {/* <p>User: {user.name}</p>
+      <p>Email: {user.email}</p> */}
     </>
   );
 };

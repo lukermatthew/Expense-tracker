@@ -23,7 +23,6 @@ const AddNewTransaction = () => {
 
   return (
     <>
-      <h3>Add new transaction</h3>
       <form onSubmit={onSubmit}>
         <div className="form-control">
           <label>Text</label>
